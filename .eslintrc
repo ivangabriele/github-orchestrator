@@ -1,0 +1,12 @@
+{
+  "extends": "@ivangabriele/eslint-config-typescript-base",
+  "env": {
+    "browser": false,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "project": "./tsconfig.json"
+  },
+  "ignorePatterns": ["dist/", "node_modules/"]
+}
