@@ -2,7 +2,6 @@
 
 - [Development](#development)
   - [Getting Started](#getting-started)
-- [Release](#release)
 - [IDE](#ide)
   - [Visual Studio Code](#visual-studio-code)
 
@@ -12,12 +11,6 @@
 
 ```sh
 yarn
-```
-
-## Release
-
-```sh
-npm version major|minor|patch
 ```
 
 ## IDE
