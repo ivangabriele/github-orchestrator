@@ -31,9 +31,9 @@ Recommended settings (`.vscode/settings.json`):
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "eslint.codeActionsOnSave.mode": "all",
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnSave": true,
+  "eslint.codeActionsOnSave.mode": "all",
   "eslint.format.enable": true,
   "eslint.packageManager": "yarn",
   "[json]": {
