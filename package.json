@@ -15,7 +15,7 @@
     "test:type": "tsc"
   },
   "dependencies": {
-    "commander": "9.1.0",
+    "commander": "9.2.0",
     "octokit": "1.7.1"
   },
   "devDependencies": {
@@ -26,14 +26,14 @@
     "@ivangabriele/prettier-config": "3.0.2",
     "@ivangabriele/semantic-release-config-base": "2.0.2",
     "@ivangabriele/tsconfig-node": "1.2.0",
-    "@typescript-eslint/eslint-plugin": "5.18.0",
-    "@typescript-eslint/parser": "5.18.0",
-    "eslint": "8.13.0",
+    "@typescript-eslint/eslint-plugin": "5.20.0",
+    "@typescript-eslint/parser": "5.20.0",
+    "eslint": "8.14.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-typescript": "17.0.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-jest": "26.1.4",
+    "eslint-plugin-jest": "26.1.5",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-sort-destructure-keys": "1.4.0",
     "eslint-plugin-sort-keys-fix": "1.1.2",
