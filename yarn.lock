@@ -1246,6 +1246,115 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-darwin-arm64@npm:1.3.38":
+  version: 1.3.38
+  resolution: "@swc/core-darwin-arm64@npm:1.3.38"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-darwin-x64@npm:1.3.38":
+  version: 1.3.38
+  resolution: "@swc/core-darwin-x64@npm:1.3.38"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm-gnueabihf@npm:1.3.38":
+  version: 1.3.38
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.38"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm64-gnu@npm:1.3.38":
+  version: 1.3.38
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.38"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm64-musl@npm:1.3.38":
+  version: 1.3.38
+  resolution: "@swc/core-linux-arm64-musl@npm:1.3.38"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-x64-gnu@npm:1.3.38":
+  version: 1.3.38
+  resolution: "@swc/core-linux-x64-gnu@npm:1.3.38"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-x64-musl@npm:1.3.38":
+  version: 1.3.38
+  resolution: "@swc/core-linux-x64-musl@npm:1.3.38"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-arm64-msvc@npm:1.3.38":
+  version: 1.3.38
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.38"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-ia32-msvc@npm:1.3.38":
+  version: 1.3.38
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.38"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-x64-msvc@npm:1.3.38":
+  version: 1.3.38
+  resolution: "@swc/core-win32-x64-msvc@npm:1.3.38"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core@npm:1.3.38":
+  version: 1.3.38
+  resolution: "@swc/core@npm:1.3.38"
+  dependencies:
+    "@swc/core-darwin-arm64": 1.3.38
+    "@swc/core-darwin-x64": 1.3.38
+    "@swc/core-linux-arm-gnueabihf": 1.3.38
+    "@swc/core-linux-arm64-gnu": 1.3.38
+    "@swc/core-linux-arm64-musl": 1.3.38
+    "@swc/core-linux-x64-gnu": 1.3.38
+    "@swc/core-linux-x64-musl": 1.3.38
+    "@swc/core-win32-arm64-msvc": 1.3.38
+    "@swc/core-win32-ia32-msvc": 1.3.38
+    "@swc/core-win32-x64-msvc": 1.3.38
+  dependenciesMeta:
+    "@swc/core-darwin-arm64":
+      optional: true
+    "@swc/core-darwin-x64":
+      optional: true
+    "@swc/core-linux-arm-gnueabihf":
+      optional: true
+    "@swc/core-linux-arm64-gnu":
+      optional: true
+    "@swc/core-linux-arm64-musl":
+      optional: true
+    "@swc/core-linux-x64-gnu":
+      optional: true
+    "@swc/core-linux-x64-musl":
+      optional: true
+    "@swc/core-win32-arm64-msvc":
+      optional: true
+    "@swc/core-win32-ia32-msvc":
+      optional: true
+    "@swc/core-win32-x64-msvc":
+      optional: true
+  checksum: c55d30e57638bcd21f788add8490c3f3e71bfe027aa5a8b153e1b1b9686ecddd6deeaaa6a6b17717c7eab4c1e2a232b465b6755b6c891506fc0d03139badfbf7
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -3635,6 +3744,7 @@ __metadata:
     "@ivangabriele/prettier-config": 3.1.0
     "@ivangabriele/semantic-release-config-base": 2.1.0
     "@ivangabriele/tsconfig-node": 1.2.2
+    "@swc/core": 1.3.38
     "@types/node": 18.14.6
     "@typescript-eslint/eslint-plugin": 5.54.1
     "@typescript-eslint/parser": 5.54.1
@@ -3655,7 +3765,7 @@ __metadata:
     prettier: 2.8.4
     typescript: 4.9.5
   bin:
-    gio: ./dist/index.js
+    gor: ./dist/index.js
   languageName: unknown
   linkType: soft
 
