@@ -1,36 +1,33 @@
 # Contributing
 
 - [Development](#development)
-  - [Getting Started](#getting-started)
-- [IDE](#ide)
-  - [Visual Studio Code](#visual-studio-code)
+  - [First Setup](#first-setup)
 
 ## Development
 
-### Getting Started
+### First Setup
+
+You need [Node.js v18](https://nodejs.org/en/).
+
+1. Install Yarn Berry:
+
+```sh
+corepack enable
+```
+
+2. Install dependencies:
 
 ```sh
 yarn
 ```
 
-## IDE
+1. Install Git hooks:
 
-### Visual Studio Code
-
-Recommended settings (`.vscode/settings.json`):
-
-```json
-{
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.formatOnSave": true,
-  "eslint.codeActionsOnSave.mode": "all",
-  "eslint.format.enable": true,
-  "eslint.packageManager": "yarn",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
-}
+```sh
+yarn dev:setup
 ```
+
+2. Setup your editor:
+
+Follow [Yarn documentation](https://yarnpkg.com/getting-started/editor-sdks#editor-setup) for that.
+
