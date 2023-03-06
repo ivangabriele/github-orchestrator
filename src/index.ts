@@ -8,8 +8,10 @@ const VERSION = '__VERSION__'
 const octokit = new Octokit()
 
 program
-  .name('gio')
-  .description('Orchestrate and harmonize all your repositories setup and files from a CLI.')
+  .name('gor')
+  .description(
+    'Github Orchestrator orchestrates your Github repositories and harmonizes their setup files from your CLI.',
+  )
   .version(VERSION)
 
 program

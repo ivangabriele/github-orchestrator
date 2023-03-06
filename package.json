@@ -1,6 +1,6 @@
 {
   "name": "github-orchestrator",
-  "description": "Orchestrate and harmonize all your repositories setup and files from a CLI.",
+  "description": "Orchestrate your Github repositories and harmonize their setup files from your CLI.",
   "version": "1.0.0-alpha.1",
   "license": "MIT",
   "engines": {
@@ -8,7 +8,7 @@
   },
   "type": "module",
   "bin": {
-    "gio": "./dist/index.js"
+    "gor": "./dist/index.js"
   },
   "scripts": {
     "build": "rm -Rf ./dist && tsc --project ./tsconfig.dist.json",

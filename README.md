@@ -2,7 +2,7 @@
 
 [![img-license]][lnk-license] [![img-npm]][lnk-npm] [![img-github]][lnk-github]
 
-Orchestrate and harmonize all your repositories setup and files from a CLI.
+Orchestrate your Github repositories and harmonize their setup files from your CLI.
 
 **⚠️ Work In Progress!**
 
@@ -15,7 +15,7 @@ npm i -g github-orchestrator
 ## Usage
 
 ```sh
-gio [command]
+gor [command]
 ```
 
 ---
