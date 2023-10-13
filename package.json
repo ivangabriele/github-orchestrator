@@ -19,7 +19,7 @@
     "test:type": "tsc"
   },
   "dependencies": {
-    "commander": "10.0.0",
+    "commander": "11.1.0",
     "octokit": "2.0.14"
   },
   "devDependencies": {
