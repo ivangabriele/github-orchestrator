@@ -23,8 +23,8 @@
     "octokit": "2.0.14"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.4.4",
-    "@commitlint/config-conventional": "17.4.4",
+    "@commitlint/cli": "19.2.1",
+    "@commitlint/config-conventional": "19.1.0",
     "@ivangabriele/commitlint-config": "1.0.6",
     "@ivangabriele/eslint-config-typescript-base": "6.0.1",
     "@ivangabriele/prettier-config": "3.1.0",
